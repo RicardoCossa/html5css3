@@ -2,15 +2,14 @@
  * Folha de estilo do site One page HTML5 e CSS3
  * @author Ricardo Cossa      
 */
+/*importação (google fonts)*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 /*CSS Reset*/
 * {
     margin: 0;
     border: 0;
     padding: 0;
 }
-
-/*importação (google fonts)*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body {
     font-family: 'Open Sans', sans-serif;
