@@ -19,7 +19,6 @@ body {
 /* Layout */
 .container {
     margin: 0 auto;
-    background-color: #dcdcdc;
 }
 
 #topo {
@@ -31,7 +30,6 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
-    background-color: #a9a9a9;
 }
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -80,10 +78,6 @@ nav ul li a {
 }
 /* Smartphone Londscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
-    body {
-        background: #0ff;
-    }
-
     /* Layout */
     .container {
         max-width: 540px;
@@ -91,10 +85,6 @@ nav ul li a {
 }
 /* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 768px) {
-    body {
-        background-color: #ff0;
-    }
-
     /* Layout */
     .container {
         max-width: 720px;
@@ -102,10 +92,6 @@ nav ul li a {
 }
 /* Tablet Londscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 992px) {
-     body {
-         background-color: #f60;
-     }
-
      /* Layout*/
      .container {
          max-width: 960px;
@@ -113,10 +99,6 @@ nav ul li a {
 }
 /* PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 1200px) {
-    body {
-        background-color: #ff0000;
-    }
-
     /* Layout */
     .container {
         max-width: 1140px;
