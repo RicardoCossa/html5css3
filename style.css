@@ -32,6 +32,11 @@ body {
     justify-content: space-between;
 }
 
+.flex2 {
+    display: flex;
+    align-items: center;
+}
+
 .botao {
     text-decoration: none;
     font-size: 1.3em;
@@ -90,8 +95,9 @@ nav ul li a {
 /* Destaque */
 main {
     height: 75vh;
-   background: url(img/banner.jpg);
+    background: url(img/banner.jpg);
     background-size: cover;
+    background-position: center;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -106,6 +112,34 @@ main h1 {
 main h2 {
     font-size: 1em;
     margin: 10px 0 50px 0;
+}
+
+/* Sobre */
+#sobre {
+    padding: 50px 0;
+    background-image: url(img/background.png);
+    background-size: cover;
+}
+
+#destaqueSobre {
+    display: none;
+}
+
+#textoSobre {
+    color: #fff;
+    padding: 0 10px;
+}
+
+#textoSobre h2 {
+    margin-bottom: 10px;
+}
+
+.topicoSobre {
+    margin-top: 20px;
+}
+
+.topicoSobre img {
+    margin-right: 10px;
 }
 /* Smartphone Londscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px){
