@@ -119,6 +119,8 @@ main h2 {
     padding: 50px 0;
     background-image: url(img/background.png);
     background-size: cover;
+    background-position: center;
+
 }
 
 #destaqueSobre {
@@ -224,5 +226,20 @@ main h2 {
 
     nav ul li a:hover {
         color: #c00;
+    }
+
+    /* Sobre */
+    #destaqueSobre {
+        display: inline;
+    }
+
+    #destaqueSobre img {
+        border-radius: 50%;
+        margin-right: 50px;
+
+    }
+
+    #sobre {
+        background-attachment: fixed;
     }
 }
