@@ -63,11 +63,48 @@ header {
 }
 
 label {
-    font-size: 3em;
     position: fixed;
-    top: 5px;
+    top: 15px;
     right: 15px;
-    color: rgba(0, 0, 0, 0.5);
+    display: block;
+    height: 22px;
+    width: 30px;
+}
+
+label span {
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    border-radius: 30px;
+    background: #c00;
+    transition: 0.25s ease-in-out;
+}
+
+label span:nth-child(1) {
+    top: 0;
+}
+
+label span:nth-child(2) {
+    top: 8px;
+}
+
+label span:nth-child(3){
+    top: 16px;
+}
+
+#check:checked + label span:nth-child(1) {
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+#check:checked + label span:nth-child(2) {
+    display: none;
+}
+
+#check:checked + label span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 8px;
 }
 
 nav ul {
